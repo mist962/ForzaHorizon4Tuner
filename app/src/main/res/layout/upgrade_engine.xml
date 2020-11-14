@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrond_white_for_main_back"
+    tools:context=".upgrade.F_UpgradeEngine">
+
+    <LinearLayout
+        android:id="@+id/str_sost"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@drawable/gradient_for_toolbar"
+        android:orientation="horizontal" />
+
+    <Button
+        android:id="@+id/btn_menu_engine_upgrades"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/anim_button_back_v_title"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/title_dvig"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/str_sost"
+        android:background="@drawable/background_title_head"
+        android:gravity="center"
+        android:paddingStart="13dp"
+        android:text="@string/tune_dvig"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp"
+        app:fontFamily="@font/russo_one"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/txt_dvig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_dvig"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:text="@string/tune_dvig_text"
+        android:textColor="@color/colorForText"
+        android:textSize="16sp"
+        app:fontFamily="@font/roboto" />
+
+
+</RelativeLayout>

@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name">Forza Horizon Tuner</string>
+
+    <string name="main_menu_upgrades">Upgrades</string>
+    <string name="main_menu_tune">Tune car</string>
+    <string name="content_description_main_logo">Logo</string>
+
+    <string name="diaolog_tune">In Forza Horizon 4 main characteristics: <b>Speed</b> and <b>Control</b>. Most of the opponent\'s overtaking takes place in corners, where the stability of the car is important. Therefore always:\n <b>Control</b> > <b>Speed</b>.\n\n The balance between these 2 indicators works according to the system of hidden points. You have only 10 points that you can spend, and if you put 8 points in <b>Speed</b>, in <b>Control</b> you can only invest the remaining 2.\n\n Upgrades occurs in the following order:\n <b>Conversation</b> -> <b>Aerodynamic</b> ->\n <b>Tyres</b> -> <b>Drivetrain</b> -> <b>Platform and Handling</b> -> <b>Engine</b></string>
+    <string name="diaolog_nastr">Tune of the car is done after installing all the necessary racing components. Fine tuning allows you to tailor the car to your needs and desires. The following instructions are averaged in this menu. These instructions are designed to help you understand the effects of sliders.</string>
+    <string name="dialog_button_prodolgit">Continue</string>
+
+    <string name="question_for_buttons">\?</string>
+
+    <string name="tune_preo">Conversation</string>
+    <string name="tune_aero">Aero and Appearance</string>
+    <string name="tune_aero_spec">Aero and\n Appearance</string>
+    <string name="tune_shini">Tyres and Rims</string>
+    <string name="tune_trans">Drivetrain</string>
+    <string name="tune_hod_upr">Platform and Handling</string>
+    <string name="tune_dvig">Engine</string>
+
+    <string name="tune_preo1"><big><b>Engine swap</b></big></string>
+    <string name="tune_preo2">\tThe engine is recommended to leave the serial. Replacement makes sense only if you switch to another class. It is not recommended to install the most powerful engine available, it may become redundant for your car. It is very important to maintain a balance between power and handling. Excessive power leads to loss of control.</string>
+    <string name="tune_preo3"><big><b>Transmission swap</b></big></string>
+    <string name="tune_preo4"><big><b>All-wheel drive</b></big></string>
+    <string name="tune_preo5"><big><b>(Not recommended for Drift):</b></big></string>
+    <string name="tune_preo6">Fast acceleration</string>
+    <string name="tune_preo7">Good corner exit control</string>
+    <string name="tune_preo8">Excellent cross</string>
+    <string name="tune_preo9">Low top speed</string>
+    <string name="tune_preo10">Inadequate handling with pressed gas</string>
+    <string name="tune_preo11"><big><b>Rear drive</b></big></string>
+    <string name="tune_preo12"><big><b>(Perfect for Drift):</b></big></string>
+    <string name="tune_preo13">High top speed</string>
+    <string name="tune_preo14">Slow acceleration</string>
+    <string name="tune_preo15">Excessive throttle handling</string>
+    <string name="tune_preo16"><big><b>Front-wheel drive</b></big></string>
+    <string name="tune_preo17"><big><b>(Not suitable for drift):</b></big></string>
+    <string name="tune_preo18">Traction is higher than that of a rear-wheel drive car</string>
+    <string name="tune_preo19">Slipping possible</string>
+    <string name="tune_preo20">Rotation angle limitation</string>
+    <string name="tune_preo21"><b>\n\tConclusion:</b></string>
+    <string name="tune_preo22"><b>- All-wheel drive</b> it is recommended for such types of races as: Dirt Racing Series, Cross Country Series, Street Scene, Road Racing Series, The Drag Strip.</string>
+    <string name="tune_preo23"><b>- Rear drive</b> it is recommended for such types of races as: Street Scene, Road Racing Series, Drift, The Drag Strip.</string>
+    <string name="tune_preo24"><b>- Front-wheel drive</b> not recommended for use.</string>
+    <string name="tune_preo25"><big><b>Aspiration</b></big></string>
+    <string name="tune_preo26">\tIf the factory engine is missing <b>Turbocharger</b> or <b>Supercharger</b>, they are not recommended for installation, the use of <b>Turbocharger</b> or <b>Supercharger</b> gives too many points of a car class:</string>
+    <string name="tune_preo27"><big><b>Turbocharger</b></big></string>
+    <string name="tune_preo28">High power boost</string>
+    <string name="tune_preo29">There is a drop in engine speed</string>
+    <string name="tune_preo30">Reduces driveability by increasing power</string>
+    <string name="tune_preo31"><big><b>Supercharger</b></big></string>
+    <string name="tune_preo32">No dip in engine speed</string>
+    <string name="tune_preo33">Low power boost</string>
+
+    <string name="tune_aero1">\tAppearance components should only be installed if branded or fully-equipped body kits from the <b>CONVERSATION</b> tab are present. Details from Forza Horizon are set at the discretion of the user, they do not give significant bonuses and, according to players, on most cars, they look unsuccessful.</string>
+
+    <string name="tune_shini_disci1"><big><b>Tyre compound</b></big></string>
+    <string name="tune_shini_disci2">\tThe compound of the tires depends on the type of race in which you will participate:</string>
+    <string name="tune_shini_disci3">1) <b>Dirt Racing Series</b> и <b>Cross Country Series</b> - tyres for off-road racing.\n2) <b>The Drag Strip</b> - tyres for drag-racing.\n3) <b>Drift</b> - tyre racing.\n4) <b>Street Scene</b> and <b>Road Racing Series</b> - tyre racing.</string>
+    <string name="tune_shini_disci4"><big><b>Front and rear tyre widths</b></big></string>
+    <string name="tune_shini_disci5">1) <b>Front tyres</b> - it is recommended to establish the medium indicators of width\n2) <b>Back tyres</b> - it is recommended to establish the maximum indicators of width.</string>
+    <string name="tune_shini_disci6"><big><b>Rim style</b></big></string>
+    <string name="tune_shini_disci7">\tThe style of the rims does not affect anything, install as desired.</string>
+    <string name="tune_shini_disci8"><big><b>Front and rear disc sizes</b></big></string>
+    <string name="tune_shini_disci9">\tRims size does not affect anything, install as desired.</string>
+    <string name="tune_shini_disci10"><big><b>Track width</b></big></string>
+    <string name="tune_shini_disci11">\tThe distance between the front and rear wheels is always maximum, the wider the car, the greater its stability.</string>
+
+    <string name="tune_trans1"><big><b>Clutch</b></big></string>
+    <string name="tune_trans2">\tIt is recommended to set the racing level - reduces weight, reduces switching time.</string>
+    <string name="tune_trans3"><big><b>Transmission</b></big></string>
+    <string name="tune_trans4">\tSet racing level - unlocks gear adjustment.</string>
+    <string name="tune_trans5"><big><b>Driveline</b></big></string>
+    <string name="tune_trans6">\tIt is recommended that you set a racing level.</string>
+    <string name="tune_trans7"><big><b>Differential</b></big></string>
+    <string name="tune_trans8">\tSet racing level - unlocks differential adjustment.</string>
+
+    <string name="tune_hod_upr1"><big><b>Brakes</b></big></string>
+    <string name="tune_hod_upr2">\tSet racing level - unlocks wheel alignment.</string>
+    <string name="tune_hod_upr3"><big><b>Spring and Dampers</b></big></string>
+    <string name="tune_hod_upr4">\tThe type of springs and shock absorbers completely depends on the type of races in which you will participate:</string>
+    <string name="tune_hod_upr5">1) <b>Dirt Racing Series</b> and <b>Cross Country Series</b> - S/D for off-road racing.\n2) <b>The Drag Strip</b> - racing springs and shock absorbers.\n3) <b>Drift</b> - S/D for drift.\n4) <b>Street Scene</b> и <b>Road Racing Series</b> - racing springs and shock absorbers.</string>
+    <string name="tune_hod_upr6"><big><b>Anti-roll bars</b></big></string>
+    <string name="tune_hod_upr7">\tSet racing level - unlocks front and rear cross adjustment.</string>
+    <string name="tune_hod_upr8"><big><b>Chassis reinforcement/Roll cage</b></big></string>
+    <string name="tune_hod_upr9">\tSet a sporting level - a racing level adds a lot of extra weight to the car.</string>
+    <string name="tune_hod_upr10"><big><b>Weight reduction</b></big></string>
+    <string name="tune_hod_upr11">\tIt is recommended to set a sports level - the racing level gives too many class points.\n\tIdeal weight of the car for races <b>Drift-race</b>, <b>Street spirit</b>, <b>Highway series</b> is 1000 ~ 1300 kg.</string>
+
+    <string name="tune_dvig_text">\tInstall engine parts in the last turn, provided that their installation does not increase the class of the car, so we consume all the remaining points of the class without moving to a higher one. We install in the following order:\n1) Flywheel - racing level\n2) Intake - street level\n3) Exhaust - street level\n4) Ignition - sports level\n5) Pistons/Compression\n6) Displacement\n7) Fuel system\n8) Valves\n9) Camshaft\n10) Turbocharger/Supercharger</string>
+
+    <string name="nastr_davlenie">Tyres</string>
+    <string name="nastr_peredachi">Gearing</string>
+    <string name="nastr_razval">Alignment</string>
+    <string name="nastr_razval_spec">Aligment</string>
+    <string name="nastr_PoperPruzhAmor">Anti-roll bars, Springs, Damping</string>
+    <string name="nastr_PoperPruzhAmor_spec">Anti-roll bars,\n Springs, Damping</string>
+    <string name="nastr_PoperPruzhAmor_front">Front load</string>
+    <string name="nastr_PoperPruzhAmor_minPered">Minimum front</string>
+    <string name="nastr_PoperPruzhAmor_maxPered">Maximum front</string>
+    <string name="nastr_PoperPruzhAmor_minZad">Minimum rear</string>
+    <string name="nastr_PoperPruzhAmor_maxZad">Maximum rear</string>
+    <string name="nastr_PoperPruzhAmor_rezult">Result</string>
+    <string name="nastr_aero">Aero</string>
+    <string name="nastr_tormoza">Brakes</string>
+    <string name="nastr_dif">Differential</string>
+
+    <string name="nastr_shin_title">Tire pressure</string>
+    <string name="nastr_shin2">\tThe first step is to set the average tire pressure. The pressure depends on the type of race in which you will participate and coverage which you will ride:</string>
+    <string name="nastr_shin_hint">\tTire pressure significantly affects driving performance. Weak pressure leads to insufficient acceleration and insufficient maximum speed. Strong pressure results in poor stability and poor handling. It is also important to consider that at high speed, the temperature inside the wheel increases, which in turn increases the pressure by another 0.2 atmosphere.</string>
+    <string name="nastr_shin_prodolg1">\tNext, you need to go to the site used in future coverage (soil or asphalt), open <b>Telemetry</b> (Button T), open the tab <b>Heat</b>, continue to accelerate, brake sharply, turn, skid and monitor the color of the tires when driving:</string>
+    <string name="nastr_shin_prodolg2">Orange - tire pressure is too high, reduce.</string>
+    <string name="nastr_shin_prodolg3">Blue - tire pressure is too low; increase is required.</string>
+    <string name="nastr_shin_prodolg4">Reduce or increase the pressure, until the tires are white in most cases.</string>
+    <string name="nastr_shin_hint_text">Choose a race type and \nclick \"Get result\"</string>
+    <string name="nastr_shin_button_text">Get result</string>
+
+    <string-array name="array_pokritie">
+        <item>Choose a race type from the list</item>
+        <item>Dirt Racing Series</item>
+        <item>Cross Country Series</item>
+        <item>Street Scene</item>
+        <item>Road Racing Series</item>
+        <item>Drift</item>
+        <item>The Drag Strip</item>
+    </string-array>
+
+    <string name="tune_tyres_0">Choose a race type and \nclick \"Get result\"</string>
+    <string name="tune_tyres_1">Front tire pressure: 1.5\nRear tire pressure: 1.5</string>
+    <string name="tune_tyres_2">Front tire pressure: 1.6\nRear tire pressure: 1.6</string>
+    <string name="tune_tyres_3">Front tire pressure: 1.7\nRear tire pressure: 1.7</string>
+    <string name="tune_tyres_4">Front tire pressure: 1.7\nRear tire pressure: 1.7</string>
+    <string name="tune_tyres_5">Front tire pressure: 1.5\nRear tire pressure: 1.5</string>
+    <string name="tune_tyres_6">Front tire pressure: 2.0\nRear tire pressure: 2.0</string>
+
+    <string name="nastr_pered_title1">First gear</string>
+    <string name="nastr_pered1">\tRequired to go to a straight section of the road, start driving and look at the behavior of the first gear before switching to 2nd:\n
+        1) The speedometer needle beats into the cutoff - the gear ratio is too large, you need to shift the 1st gear indicator to the left, towards the <b>speed</b>.\n
+        2) The speedometer needle rises very slowly - the gear ratio is too small, you need to shift the 1st gear indicator to the right, towards <b>acceleration</b>.\n
+        When the 1st gear is adjusted, the arrow will smoothly rise and stand still until shifting to 2nd gear.\n</string>
+    <string name="nastr_pered_title2">Second gear</string>
+    <string name="nastr_pered2">\tYou need to open any tab in the modification of the car engine and remember at what speed, the engine gives the maximum torque (the top point of the green graph).</string>
+    <string name="nastr_pered3">\tAfter matching with the speed indicators grid, in the <b>Fine-tuning gears</b>. Switching to 2nd gear should occur at the highest torque.</string>
+    <string name="nastr_pered4">\tNext, you need to set the gear values so that each subsequent gear changes at slightly higher speed than the previous one, as well as all gears should be visible on the grid and end exactly at the end of it.\n\tThis can be achieved by adjusting the sliders of all gears and sliders the <b>Final Drive</b> slider towards <b>Speed</b> or <b>Acceleration</b>.</string>
+
+    <string name="nastr_razva2">Camber</string>
+    <string name="nastr_razva3">\tThe collapse is configured on the ring road, by <b>Telemetry</b>(Button T) in the tab <b>Tyres, Misc.</b>.\n Having left the ring, you need to start moving clockwise, accelerate to 100 \- 150 km/h(60 \- 100 mi/h), start looking at the camber of the left front and left rear wheels, depending on the value, adjust the slider to the right (positive) or left (negative) side, when turning, a camber angle of close to 0 degrees is required. Then, in the same way, but counterclockwise, we adjust the right wheels.</string>
+    <string name="nastr_razva4">Toe</string>
+    <string name="nastr_razva5">1) Front +0.1</string>
+    <string name="nastr_razva6">2) Rear -0.1</string>
+    <string name="nastr_razva7">Front Caster</string>
+    <string name="nastr_razva8">\tSet 6 degree angle.</string>
+
+    <string name="nastr_poper1">\tBefore fine-tuning, average values must be set. Enter the minimum and maximum values for the position of the sliders at the left and right points, in each tab. The values will be automatically calculated, you only need to apply them.But before starting the calculation, you need to set the value of <b>Weight Front Distribution</b> of the car, it can be found in the information about the car in the <b>Garage</b>:</string>
+    <string name="nastr_poper2">Anti-roll bars</string>
+    <string name="nastr_poper3">Springs</string>
+    <string name="nastr_poper4">Damping</string>
+    <string name="nastr_poper5">Anti-roll bars</string>
+    <string name="nastr_poper6">\tRequired to go to the circle, open <b>Telemetry</b>(Button T), the <b>Suspension</b> tab, start moving in a circle and adjust the sliders <b>Anti-roll bars</b> so that <b>Rebound Stiffness</b> is close to 80%, then continue to adjust until a result is obtained that allows constant driving in a circle without releasing gas or close to this result, in case of lack of control, then you need to make the transverse softer if excess is tougher.</string>
+    <string name="nastr_poper7">Springs</string>
+    <string name="nastr_poper8">\tRequired to go straight, open <b>Telemetry</b>(Button T), the <b>Suspension</b> tab, start straight ahead and adjust <b>Springs</b> so that <b>Rebound Stiffness</b> is close to 80%</string>
+    <string name="nastr_poper9">Clearance</string>
+    <string name="nastr_poper10">1) <b>Asphalt</b> - 4 clicks from the minimum value.\n2) <b>Primer coating</b> - maximum value.</string>
+    <string name="nastr_poper11">Damping</string>
+    <string name="nastr_poper12">Rebound Stiffness</string>
+    <string name="nastr_poper13">\tRequired to go to go on the road with the presence of bumps, holes, potholes, bumps, open <b>Telemetry</b>(Button T), the <b>Suspension</b> tab, start straight ahead and adjust <b>Springs</b> so that <b>Rebound Stiffness</b> is close to 80%.</string>
+    <string name="nastr_poper14">Bump Stiffness</string>
+    <string name="nastr_poper15">\tSpecify the set values in the <b>Rebound Stiffness</b> paragraph in the input fields, and the <b>Bump Stiffness</b> values will be automatically calculated for you:</string>
+    <string name="nastr_poper_pered">Front:</string>
+    <string name="nastr_poper_zad">Rear:</string>
+    <string name="nastr_poper_min">Min</string>
+    <string name="nastr_poper_max">Max</string>
+    <string name="nastr_poper_rebound_front"> Front Rebound Stiffness</string>
+    <string name="nastr_poper_rebound_rear"> Rear Rebound Stiffness</string>
+    <string name="nastr_poper_frontNagruz"> Weight Front Distribution</string>
+    <string name="nastr_poper_result">Result</string>
+
+    <string name="nastr_aero_hint">Downforce adjustment only opens after installing body kits</string>
+    <string name="nastr_aero1">Downforce</string>
+    <string name="nastr_aero2">1) Front - set to 60 \- 70% towards the turn.</string>
+    <string name="nastr_aero3">2) Rear - set to maximum in the direction of the turn.</string>
+
+    <string name="nastr_tormoz1">1) The balance is responsible for the rims during braking, you only need to adjust if you are not comfortable with the front or rear wheels when braking.</string>
+    <string name="nastr_tormoz2">2) Pressure is not regulated.</string>
+
+    <string name="nastr_dif_hint">The availability of differential adjustment depends on the drive of the vehicle.\n<b>Four-wheel drive</b> - front and rear differentials.\n<b>Front-wheel drive</b> - only the front differential.\n <b>Rear-wheel drive</b> is only the rear differential.</string>
+    <string name="nastr_dif_title1">Front</string>
+    <string name="nastr_dif1">1) Acceleration 20 \– 40%</string>
+    <string name="nastr_dif2">2) Braking 10%</string>
+    <string name="nastr_dif_title2">Rear</string>
+    <string name="nastr_dif3">1) Acceleration 50 \– 70%</string>
+    <string name="nastr_dif4">2) Braking 10%</string>
+    <string name="nastr_dif_title3">Center</string>
+    <string name="nastr_dif5">\tDo not adjust.</string>
+
+</resources>

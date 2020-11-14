@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sideki.forzahorizon4tuner.view.managers.UpgradeManager">
+
+    <FrameLayout
+        android:id="@+id/frgmCont_upgrades"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_gradient_for_linear"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="0dp"
+                android:layout_height="210dp"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/main_title"
+                tools:ignore="ContentDescription" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:baselineAligned="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/btn_hint_upgrades"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_view">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btn_conversation_upgrades"
+                        android:layout_width="120dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/anim_buttons_click"
+                        android:text="@string/tune_preo"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="11sp"
+                        app:fontFamily="@font/russo_one"
+                        app:layout_constraintEnd_toStartOf="@+id/btn_aero_upgrades"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/image_view"
+                        tools:ignore="SmallSp" />
+
+                    <Button
+                        android:id="@+id/btn_tyres_upgrades"
+                        android:layout_width="120dp"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/anim_buttons_click"
+                        android:text="@string/tune_shini"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="11sp"
+                        app:fontFamily="@font/russo_one"
+                        app:layout_constraintEnd_toStartOf="@+id/btn_drivetrain_upgrades"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/btn_conversation_upgrades"
+                        tools:ignore="SmallSp" />
+
+                    <Button
+                        android:id="@+id/btn_platform_upgrades"
+                        android:layout_width="120dp"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/anim_buttons_click"
+                        android:text="@string/tune_hod_upr"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="12sp"
+                        app:fontFamily="@font/russo_one"
+                        app:layout_constraintEnd_toStartOf="@+id/btn_engine_upgrades"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/btn_tyres_upgrades" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btn_aero_upgrades"
+                        android:layout_width="120dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/anim_buttons_click"
+                        android:text="@string/tune_aero"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="10sp"
+                        app:fontFamily="@font/russo_one"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/btn_conversation_upgrades"
+                        app:layout_constraintTop_toBottomOf="@+id/image_view"
+                        tools:ignore="SmallSp" />
+
+                    <Button
+                        android:id="@+id/btn_drivetrain_upgrades"
+                        android:layout_width="120dp"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/anim_buttons_click"
+                        android:text="@string/tune_trans"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="12sp"
+                        app:fontFamily="@font/russo_one"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/btn_tyres_upgrades"
+                        app:layout_constraintTop_toBottomOf="@+id/btn_aero_upgrades" />
+
+                    <Button
+                        android:id="@+id/btn_engine_upgrades"
+                        android:layout_width="120dp"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/anim_buttons_click"
+                        android:text="@string/tune_dvig"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="12sp"
+                        app:fontFamily="@font/russo_one"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/btn_platform_upgrades"
+                        app:layout_constraintTop_toBottomOf="@+id/btn_drivetrain_upgrades" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_back_upgrades"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginBottom="60dp"
+                android:background="@drawable/anim_button_v_glav_menu"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/btn_hint_upgrades"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="60dp"
+                android:background="@drawable/anim_buttons_click"
+                android:text="@string/question_for_buttons"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                app:fontFamily="@font/russo_one"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintVertical_bias="0.71000004" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

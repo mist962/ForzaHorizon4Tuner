@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrond_white_for_main_back"
+    tools:context="com.sideki.forzahorizon4tuner.view.tune.TuneTyres">
+
+    <LinearLayout
+        android:id="@+id/str_sost"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@drawable/gradient_for_toolbar"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:id="@+id/title_davlenie"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/str_sost"
+        android:background="@drawable/background_title_head"
+        android:gravity="center"
+        android:text="@string/nastr_davlenie"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="26sp"
+        app:fontFamily="@font/russo_one"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/btn_menu_tyres_tune"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/anim_button_back_v_title"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btn_hint_tyres_tune"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/anim_button_hint"
+        android:gravity="center" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_davlenie"
+        android:layout_marginBottom="10dp"
+        android:scrollbarThumbVertical="@drawable/scrollbar">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/davlenie_v_shinah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTitles"
+                android:gravity="center"
+                android:text="@string/nastr_shin_title"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:fontFamily="@font/russo_one" />
+
+            <TextView
+                android:id="@+id/textView2_v_nastr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:orientation="vertical"
+                android:text="@string/nastr_shin2"
+                android:textColor="@color/colorForText"
+                android:textSize="15sp"
+                app:fontFamily="@font/roboto" />
+
+            <Spinner
+                android:id="@+id/spin_vibor_v_davlenie"
+                style="@style/Widget.AppCompat.Spinner"
+                android:layout_width="300dp"
+                android:layout_height="?attr/dropdownListPreferredItemHeight"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_bg"
+                android:entries="@array/array_pokritie"
+                android:gravity="center"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center"
+                app:fontFamily="@font/roboto"
+                tools:ignore="PrivateResource,UnusedAttribute" />
+
+            <TextView
+                android:id="@+id/txt_rezult_v_nastr"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:hint="@string/nastr_shin_hint_text"
+                android:orientation="vertical"
+                android:textColor="@color/colorForText"
+                android:textSize="14sp"
+                app:fontFamily="@font/roboto" />
+
+            <Button
+                android:id="@+id/btn_rezult_tyres"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/anim_buttons_click"
+                android:gravity="center"
+                android:text="@string/nastr_shin_button_text"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:id="@+id/txt_davlenie1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginRight="6dp"
+                android:text="@string/nastr_shin_prodolg1"
+                android:textColor="@color/colorForText"
+                android:textSize="15sp"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:id="@+id/txt_davlenie2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginRight="6dp"
+                android:drawablePadding="5dp"
+                android:text="@string/nastr_shin_prodolg2"
+                android:textColor="@color/colorForText"
+                android:textSize="15sp"
+                app:drawableLeftCompat="@drawable/ic_icon_shin_hot"
+                app:drawableStartCompat="@drawable/ic_icon_shin_hot"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:id="@+id/txt_davlenie3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginRight="6dp"
+                android:drawablePadding="5dp"
+                android:text="@string/nastr_shin_prodolg3"
+                android:textColor="@color/colorForText"
+                android:textSize="15sp"
+                app:drawableLeftCompat="@drawable/ic_icon_shin_cold"
+                app:drawableStartCompat="@drawable/ic_icon_shin_cold"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:id="@+id/txt_davlenie4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginRight="6dp"
+                android:drawablePadding="5dp"
+                android:text="@string/nastr_shin_prodolg4"
+                android:textColor="@color/colorForText"
+                android:textSize="15sp"
+                app:drawableLeftCompat="@drawable/ic_icon_shin_norm"
+                app:drawableStartCompat="@drawable/ic_icon_shin_norm"
+                app:fontFamily="@font/roboto" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrond_white_for_main_back"
+    tools:context=".upgrade.C_UpgradeTyresAndRims">
+
+    <LinearLayout
+        android:id="@+id/str_sost"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@drawable/gradient_for_toolbar"
+        android:orientation="horizontal" />
+
+    <Button
+        android:id="@+id/btn_menu_tyres_and_rims_upgrades"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/anim_button_back_v_title"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/title_shin_disc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/str_sost"
+        android:background="@drawable/background_title_head"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingStart="10dp"
+        android:text="@string/tune_shini"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="26sp"
+        app:fontFamily="@font/russo_one"
+        tools:ignore="RtlSymmetry" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_shin_disc"
+        android:layout_marginBottom="10dp"
+        android:scrollbarThumbVertical="@drawable/scrollbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTitles"
+                android:gravity="center"
+                android:text="@string/tune_shini_disci1"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:fontFamily="@font/russo_one" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:text="@string/tune_shini_disci2"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:text="@string/tune_shini_disci3"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTitles"
+                android:gravity="center"
+                android:text="@string/tune_shini_disci4"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:fontFamily="@font/russo_one" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:text="@string/tune_shini_disci5"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTitles"
+                android:gravity="center"
+                android:text="@string/tune_shini_disci6"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:fontFamily="@font/russo_one" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:text="@string/tune_shini_disci7"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTitles"
+                android:gravity="center"
+                android:text="@string/tune_shini_disci8"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:fontFamily="@font/russo_one" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:text="@string/tune_shini_disci9"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTitles"
+                android:gravity="center"
+                android:text="@string/tune_shini_disci10"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:fontFamily="@font/russo_one" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:text="@string/tune_shini_disci11"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:fontFamily="@font/roboto" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

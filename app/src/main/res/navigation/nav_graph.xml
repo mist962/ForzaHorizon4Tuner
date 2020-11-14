@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.sideki.forzahorizon4tuner.view.managers.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_upgrade_Manager"
+            app:destination="@id/upgrade_Manager"
+            app:popUpTo="@id/upgrade_Manager" />
+        <action
+            android:id="@+id/action_mainFragment_to_tune_Manager"
+            app:destination="@id/tune_Manager"
+            app:popUpTo="@id/tune_Manager" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/tune_Manager"
+        android:name="com.sideki.forzahorizon4tuner.view.managers.TuneManager"
+        android:label="tune_manager"
+        tools:layout="@layout/tune_manager">
+        <action
+            android:id="@+id/action_tune_Manager_to_a_Tune_Tyres"
+            app:destination="@id/a_Tune_Tyres" />
+        <action
+            android:id="@+id/action_tune_Manager_to_b_Tune_Gearing"
+            app:destination="@id/b_Tune_Gearing" />
+        <action
+            android:id="@+id/action_tune_Manager_to_c_Tune_Alignment"
+            app:destination="@id/c_Tune_Alignment" />
+        <action
+            android:id="@+id/action_tune_Manager_to_d_Tune_AntiRoll"
+            app:destination="@id/d_Tune_AntiRoll" />
+        <action
+            android:id="@+id/action_tune_Manager_to_e_Tune_Aero"
+            app:destination="@id/e_Tune_Aero" />
+        <action
+            android:id="@+id/action_tune_Manager_to_f_Tune_Brakes"
+            app:destination="@id/f_Tune_Brakes" />
+        <action
+            android:id="@+id/action_tune_Manager_to_g_Tune_Differential"
+            app:destination="@id/g_Tune_Differential" />
+    </fragment>
+    <fragment
+        android:id="@+id/upgrade_Manager"
+        android:name="com.sideki.forzahorizon4tuner.view.managers.UpgradeManager"
+        android:label="upgrade_manager"
+        tools:layout="@layout/upgrade_manager">
+        <action
+            android:id="@+id/action_upgrade_Manager_to_a_Upgrade_Conversation"
+            app:destination="@id/a_Upgrade_Conversation" />
+        <action
+            android:id="@+id/action_upgrade_Manager_to_b_Upgrade_AeroAndAppearance"
+            app:destination="@id/b_Upgrade_AeroAndAppearance" />
+        <action
+            android:id="@+id/action_upgrade_Manager_to_c_Upgrade_TyresAndRims"
+            app:destination="@id/c_Upgrade_TyresAndRims" />
+        <action
+            android:id="@+id/action_upgrade_Manager_to_d_Upgrade_Drivetrain"
+            app:destination="@id/d_Upgrade_Drivetrain" />
+        <action
+            android:id="@+id/action_upgrade_Manager_to_e_Upgrade_PaltformAndHandling"
+            app:destination="@id/e_Upgrade_PaltformAndHandling" />
+        <action
+            android:id="@+id/action_upgrade_Manager_to_f_Upgrade_Engine"
+            app:destination="@id/f_Upgrade_Engine" />
+    </fragment>
+    <fragment
+        android:id="@+id/e_Tune_Aero"
+        android:name="com.sideki.forzahorizon4tuner.view.tune.TuneAero"
+        android:label="tune_aero"
+        tools:layout="@layout/tune_aero" />
+    <fragment
+        android:id="@+id/c_Tune_Alignment"
+        android:name="com.sideki.forzahorizon4tuner.view.tune.TuneAlignment"
+        android:label="tune_alignment"
+        tools:layout="@layout/tune_alignment" />
+    <fragment
+        android:id="@+id/d_Tune_AntiRoll"
+        android:name="com.sideki.forzahorizon4tuner.view.tune.TuneAntiRoll"
+        android:label="tune_antiroll"
+        tools:layout="@layout/tune_antiroll" />
+    <fragment
+        android:id="@+id/f_Tune_Brakes"
+        android:name="com.sideki.forzahorizon4tuner.view.tune.TuneBrakes"
+        android:label="tune_brakes"
+        tools:layout="@layout/tune_brakes" />
+    <fragment
+        android:id="@+id/g_Tune_Differential"
+        android:name="com.sideki.forzahorizon4tuner.view.tune.TuneDifferential"
+        android:label="tune_differential"
+        tools:layout="@layout/tune_differential" />
+    <fragment
+        android:id="@+id/b_Tune_Gearing"
+        android:name="com.sideki.forzahorizon4tuner.view.tune.TuneGearing"
+        android:label="tune_gearing"
+        tools:layout="@layout/tune_gearing" />
+    <fragment
+        android:id="@+id/a_Tune_Tyres"
+        android:name="com.sideki.forzahorizon4tuner.view.tune.TuneTyres"
+        android:label="tune_tyres"
+        tools:layout="@layout/tune_tyres" />
+    <fragment
+        android:id="@+id/b_Upgrade_AeroAndAppearance"
+        android:name="ru.alex.forzahorizon4tuner.upgrade.B_UpgradeAeroAndAppearance"
+        android:label="upgrade_aero_and_apperance"
+        tools:layout="@layout/upgrade_aero_and_apperance" />
+    <fragment
+        android:id="@+id/a_Upgrade_Conversation"
+        android:name="ru.alex.forzahorizon4tuner.upgrade.A_UpgradeConversation"
+        android:label="upgrade_conversation"
+        tools:layout="@layout/upgrade_conversation" />
+    <fragment
+        android:id="@+id/d_Upgrade_Drivetrain"
+        android:name="ru.alex.forzahorizon4tuner.upgrade.D_UpgradeDrivetrain"
+        android:label="upgrade_drivetrain"
+        tools:layout="@layout/upgrade_drivetrain" />
+    <fragment
+        android:id="@+id/f_Upgrade_Engine"
+        android:name="ru.alex.forzahorizon4tuner.upgrade.F_UpgradeEngine"
+        android:label="upgrade_engine"
+        tools:layout="@layout/upgrade_engine" />
+    <fragment
+        android:id="@+id/e_Upgrade_PaltformAndHandling"
+        android:name="ru.alex.forzahorizon4tuner.upgrade.E_UpgradePaltformAndHandling"
+        android:label="upgrade_paltform_and_handling"
+        tools:layout="@layout/upgrade_paltform_and_handling" />
+    <fragment
+        android:id="@+id/c_Upgrade_TyresAndRims"
+        android:name="ru.alex.forzahorizon4tuner.upgrade.C_UpgradeTyresAndRims"
+        android:label="upgrade_tyres_and_ryims"
+        tools:layout="@layout/upgrade_tyres_and_ryims" />
+</navigation>

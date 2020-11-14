@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrond_white_for_main_back"
+    tools:context=".upgrade.D_UpgradeDrivetrain">
+
+    <LinearLayout
+        android:id="@+id/str_sost"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@drawable/gradient_for_toolbar"
+        android:orientation="horizontal" />
+
+    <Button
+        android:id="@+id/btn_menu_drivetrain_upgrades"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/anim_button_back_v_title"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/title_trans"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/str_sost"
+        android:background="@drawable/background_title_head"
+        android:gravity="center"
+        android:paddingStart="12dp"
+        android:text="@string/tune_trans"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="26sp"
+        app:fontFamily="@font/russo_one"
+        tools:ignore="RtlSymmetry" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_trans"
+        android:layout_marginBottom="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTitles"
+            android:gravity="center"
+            android:text="@string/tune_trans1"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            app:fontFamily="@font/russo_one" />
+
+        <TextView
+            android:id="@+id/text_view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:text="@string/tune_trans2"
+            android:textColor="@color/colorForText"
+            android:textSize="16sp"
+            app:fontFamily="@font/roboto" />
+
+        <TextView
+            android:id="@+id/text_view3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTitles"
+            android:gravity="center"
+            android:text="@string/tune_trans3"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            app:fontFamily="@font/russo_one" />
+
+        <TextView
+            android:id="@+id/text_view4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:text="@string/tune_trans4"
+            android:textColor="@color/colorForText"
+            android:textSize="16sp"
+            app:fontFamily="@font/roboto" />
+
+        <TextView
+            android:id="@+id/text_view5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTitles"
+            android:gravity="center"
+            android:text="@string/tune_trans5"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            app:fontFamily="@font/russo_one" />
+
+        <TextView
+            android:id="@+id/text_view6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:text="@string/tune_trans6"
+            android:textColor="@color/colorForText"
+            android:textSize="16sp"
+            app:fontFamily="@font/roboto" />
+
+        <TextView
+            android:id="@+id/text_view7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorTitles"
+            android:gravity="center"
+            android:text="@string/tune_trans7"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            app:fontFamily="@font/russo_one" />
+
+        <TextView
+            android:id="@+id/text_view8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:text="@string/tune_trans8"
+            android:textColor="@color/colorForText"
+            android:textSize="16sp"
+            app:fontFamily="@font/roboto" />
+
+    </LinearLayout>
+</RelativeLayout>

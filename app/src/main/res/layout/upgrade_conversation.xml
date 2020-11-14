@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrond_white_for_main_back"
+    tools:context=".upgrade.A_UpgradeConversation">
+
+    <LinearLayout
+        android:id="@+id/str_sost"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@drawable/gradient_for_toolbar"
+        android:orientation="horizontal" />
+
+    <Button
+        android:id="@+id/btn_menu_conversation_upgrades"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/anim_button_back_v_title"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/title_preo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/str_sost"
+        android:background="@drawable/background_title_head"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="@string/tune_preo"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="26sp"
+        app:fontFamily="@font/russo_one" />
+
+    <ScrollView
+        android:id="@+id/scroll_view_v_preo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_preo"
+        android:layout_marginBottom="10dp"
+        android:scrollbarThumbVertical="@drawable/scrollbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTitles"
+                android:gravity="center"
+                android:text="@string/tune_preo1"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:fontFamily="@font/russo_one" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:text="@string/tune_preo2"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTitles"
+                android:gravity="center"
+                android:text="@string/tune_preo3"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:fontFamily="@font/russo_one" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/tune_preo4"
+                android:textColor="#4d4d4d"
+                android:textSize="16sp"
+                app:fontFamily="@font/roboto_medium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/tune_preo5"
+                android:textColor="#4d4d4d"
+                android:textSize="16sp"
+                app:fontFamily="@font/roboto_medium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:drawablePadding="10dp"
+                android:text="@string/tune_preo6"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:drawableLeftCompat="@drawable/ic_plus"
+                app:drawableStartCompat="@drawable/ic_plus"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:drawablePadding="10dp"
+                android:text="@string/tune_preo7"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:drawableLeftCompat="@drawable/ic_plus"
+                app:drawableStartCompat="@drawable/ic_plus"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:drawablePadding="10dp"
+                android:text="@string/tune_preo8"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:drawableLeftCompat="@drawable/ic_plus"
+                app:drawableStartCompat="@drawable/ic_plus"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:drawablePadding="10dp"
+                android:text="@string/tune_preo9"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:drawableLeftCompat="@drawable/ic_minus"
+                app:drawableStartCompat="@drawable/ic_minus"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:drawablePadding="10dp"
+                android:text="@string/tune_preo10"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:drawableLeftCompat="@drawable/ic_minus"
+                app:drawableStartCompat="@drawable/ic_minus"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/tune_preo11"
+                android:textColor="@color/colorTitles"
+                android:textSize="16sp"
+                app:fontFamily="@font/roboto_medium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/tune_preo12"
+                android:textColor="@color/colorTitles"
+                android:textSize="16sp"
+                app:fontFamily="@font/roboto_medium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:drawablePadding="10dp"
+                android:text="@string/tune_preo13"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:drawableLeftCompat="@drawable/ic_plus"
+                app:drawableStartCompat="@drawable/ic_plus"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:drawablePadding="10dp"
+                android:text="@string/tune_preo14"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:drawableLeftCompat="@drawable/ic_minus"
+                app:drawableStartCompat="@drawable/ic_minus"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:drawablePadding="10dp"
+                android:text="@string/tune_preo15"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:drawableLeftCompat="@drawable/ic_minus"
+                app:drawableStartCompat="@drawable/ic_minus"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/tune_preo16"
+                android:textColor="@color/colorTitles"
+                android:textSize="16sp"
+                app:fontFamily="@font/roboto_medium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/tune_preo17"
+                android:textColor="@color/colorTitles"
+                android:textSize="16sp"
+                app:fontFamily="@font/roboto_medium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:drawablePadding="10dp"
+                android:text="@string/tune_preo18"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:drawableLeftCompat="@drawable/ic_plus"
+                app:drawableStartCompat="@drawable/ic_plus"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:drawablePadding="10dp"
+                android:text="@string/tune_preo19"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:drawableLeftCompat="@drawable/ic_minus"
+                app:drawableStartCompat="@drawable/ic_minus"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:drawablePadding="10dp"
+                android:text="@string/tune_preo20"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:drawableLeftCompat="@drawable/ic_minus"
+                app:drawableStartCompat="@drawable/ic_minus"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:text="@string/tune_preo21"
+                android:textColor="@color/colorForText"
+                android:textSize="17sp"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:text="@string/tune_preo22"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:text="@string/tune_preo23"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:text="@string/tune_preo24"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTitles"
+                android:gravity="center"
+                android:text="@string/tune_preo25"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:fontFamily="@font/russo_one" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:text="@string/tune_preo26"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:gravity="center"
+                android:text="@string/tune_preo27"
+                android:textColor="@color/colorTitles"
+                android:textSize="16sp"
+                app:fontFamily="@font/roboto_medium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:drawablePadding="10dp"
+                android:text="@string/tune_preo28"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:drawableLeftCompat="@drawable/ic_plus"
+                app:drawableStartCompat="@drawable/ic_plus" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:drawablePadding="10dp"
+                android:text="@string/tune_preo29"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:drawableLeftCompat="@drawable/ic_minus"
+                app:drawableStartCompat="@drawable/ic_minus" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:drawablePadding="10dp"
+                android:text="@string/tune_preo30"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:drawableLeftCompat="@drawable/ic_minus"
+                app:drawableStartCompat="@drawable/ic_minus" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:gravity="center"
+                android:text="@string/tune_preo31"
+                android:textColor="@color/colorTitles"
+                android:textSize="16sp"
+                app:fontFamily="@font/roboto_medium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:drawablePadding="10dp"
+                android:text="@string/tune_preo32"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:drawableLeftCompat="@drawable/ic_plus"
+                app:drawableStartCompat="@drawable/ic_plus"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:drawablePadding="10dp"
+                android:text="@string/tune_preo33"
+                android:textColor="@color/colorForText"
+                android:textSize="16sp"
+                app:drawableLeftCompat="@drawable/ic_minus"
+                app:drawableStartCompat="@drawable/ic_minus"
+                app:fontFamily="@font/roboto" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

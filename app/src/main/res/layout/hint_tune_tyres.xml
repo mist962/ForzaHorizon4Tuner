@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:background="@drawable/background_for_dialog"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="@string/nastr_shin_hint"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        app:fontFamily="@font/roboto" />
+
+    <Button
+        android:id="@+id/btn_hint_tyres_tune"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/anim_buttons_click"
+        android:text="@string/dialog_button_prodolgit"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp"
+        app:fontFamily="@font/russo_one" />
+
+</LinearLayout>

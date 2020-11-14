@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrond_white_for_main_back"
+    tools:context="com.sideki.forzahorizon4tuner.view.managers.TuneManager">
+
+    <FrameLayout
+        android:id="@+id/frgmCont_tune"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_gradient_for_linear"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="0dp"
+                android:layout_height="210dp"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/main_title"
+                tools:ignore="ContentDescription" />
+
+            <Button
+                android:id="@+id/btn_back_tune"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginBottom="60dp"
+                android:background="@drawable/anim_button_v_glav_menu"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/btn_hint_tune"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="60dp"
+                android:background="@drawable/anim_buttons_click"
+                android:text="@string/question_for_buttons"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintVertical_bias="0.71000004" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:baselineAligned="false"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/image_view">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="40dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btn_tyres_tune"
+                            android:layout_width="120dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/anim_buttons_click"
+                            android:text="@string/nastr_davlenie"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="12sp"
+                            app:fontFamily="@font/russo_one" />
+
+                        <Button
+                            android:id="@+id/btn_alignment_tune"
+                            android:layout_width="120dp"
+                            android:layout_height="45dp"
+                            android:layout_marginTop="40dp"
+                            android:background="@drawable/anim_buttons_click"
+                            android:text="@string/nastr_razval"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="12sp"
+                            app:fontFamily="@font/russo_one" />
+
+                        <Button
+                            android:id="@+id/btn_aero_tune"
+                            android:layout_width="120dp"
+                            android:layout_height="45dp"
+                            android:layout_marginTop="40dp"
+                            android:background="@drawable/anim_buttons_click"
+                            android:text="@string/nastr_aero"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="12sp"
+                            app:fontFamily="@font/russo_one" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btn_gearing_tune"
+                            android:layout_width="120dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/anim_buttons_click"
+                            android:gravity="center"
+                            android:text="@string/nastr_peredachi"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="12sp"
+                            app:fontFamily="@font/russo_one" />
+
+                        <Button
+                            android:id="@+id/btn_antiroll_tune"
+                            android:layout_width="120dp"
+                            android:layout_height="45dp"
+                            android:layout_marginTop="40dp"
+                            android:background="@drawable/anim_buttons_click"
+                            android:text="@string/nastr_PoperPruzhAmor_spec"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="8sp"
+                            app:fontFamily="@font/russo_one"
+                            tools:ignore="SmallSp" />
+
+                        <Button
+                            android:id="@+id/btn_brakes_tune"
+                            android:layout_width="120dp"
+                            android:layout_height="45dp"
+                            android:layout_marginTop="40dp"
+                            android:background="@drawable/anim_buttons_click"
+                            android:text="@string/nastr_tormoza"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="12sp"
+                            app:fontFamily="@font/russo_one" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_diff_tune"
+                        android:layout_width="120dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/anim_buttons_click"
+                        android:text="@string/nastr_dif"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="12sp"
+                        app:fontFamily="@font/russo_one" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
