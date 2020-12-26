@@ -9,4 +9,4 @@ Forza Horizon 4 Tuner
 
 Реализация
 -------
- В реализации приложения использовались стандартные библиотки Android, Kotlin и Android Achitecture Component - Navigation.
+ В реализации приложения использовался язык програмирования Kotlin, стандартные библиотки Android и Android Achitecture Component - Navigation.
